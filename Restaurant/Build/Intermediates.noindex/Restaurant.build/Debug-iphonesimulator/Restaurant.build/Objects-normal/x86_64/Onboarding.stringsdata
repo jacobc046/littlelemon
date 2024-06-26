@@ -1,0 +1,24 @@
+{
+  "source": "/Users/jacobc/Development/swift/Capstone/littlelemon/Restaurant/Restaurant/Onboarding.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "First name"
+      },
+      {
+        "comment": "",
+        "key": "Last name"
+      },
+      {
+        "comment": "",
+        "key": "Email"
+      },
+      {
+        "comment": "",
+        "key": "Register"
+      }
+    ]
+  },
+  "version": 1
+}

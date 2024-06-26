@@ -1,0 +1,16 @@
+{
+  "source": "/Users/jacobc/Development/swift/Capstone/littlelemon/Restaurant/Restaurant/Home.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Menu"
+      },
+      {
+        "comment": "",
+        "key": "Profile"
+      }
+    ]
+  },
+  "version": 1
+}

@@ -1,0 +1,24 @@
+{
+  "source": "/Users/jacobc/Development/swift/Capstone/littlelemon/Restaurant/Build/Intermediates.noindex/Previews/iphonesimulator/Restaurant/Intermediates.noindex/Restaurant.build/Debug-iphonesimulator/Restaurant.build/Objects-normal/x86_64/Onboarding.1.preview-thunk.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "First name"
+      },
+      {
+        "comment": "",
+        "key": "Last name"
+      },
+      {
+        "comment": "",
+        "key": "Email"
+      },
+      {
+        "comment": "",
+        "key": "Register"
+      }
+    ]
+  },
+  "version": 1
+}

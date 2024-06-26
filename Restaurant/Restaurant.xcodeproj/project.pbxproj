@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		126992E52C2C8F9600DAC01B /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126992E42C2C8F9600DAC01B /* Onboarding.swift */; };
+		126992E72C2C95C000DAC01B /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126992E62C2C95C000DAC01B /* Home.swift */; };
+		126992E92C2C95FC00DAC01B /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126992E82C2C95FC00DAC01B /* Menu.swift */; };
+		126992EB2C2C9D6F00DAC01B /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 126992EA2C2C9D6F00DAC01B /* UserProfile.swift */; };
 		12C377612C2B2F36006683A9 /* RestaurantApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C377602C2B2F36006683A9 /* RestaurantApp.swift */; };
-		12C377632C2B2F36006683A9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C377622C2B2F36006683A9 /* ContentView.swift */; };
 		12C377652C2B2F38006683A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12C377642C2B2F38006683A9 /* Assets.xcassets */; };
 		12C377682C2B2F38006683A9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 12C377672C2B2F38006683A9 /* Preview Assets.xcassets */; };
 		12C3776A2C2B2F38006683A9 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12C377692C2B2F38006683A9 /* Persistence.swift */; };
@@ -16,9 +19,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		126992E42C2C8F9600DAC01B /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
+		126992E62C2C95C000DAC01B /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		126992E82C2C95FC00DAC01B /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		126992EA2C2C9D6F00DAC01B /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
 		12C3775D2C2B2F36006683A9 /* Restaurant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Restaurant.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12C377602C2B2F36006683A9 /* RestaurantApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantApp.swift; sourceTree = "<group>"; };
-		12C377622C2B2F36006683A9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		12C377642C2B2F38006683A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		12C377672C2B2F38006683A9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		12C377692C2B2F38006683A9 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -55,8 +61,11 @@
 		12C3775F2C2B2F36006683A9 /* Restaurant */ = {
 			isa = PBXGroup;
 			children = (
+				126992E62C2C95C000DAC01B /* Home.swift */,
+				126992E82C2C95FC00DAC01B /* Menu.swift */,
 				12C377602C2B2F36006683A9 /* RestaurantApp.swift */,
-				12C377622C2B2F36006683A9 /* ContentView.swift */,
+				126992E42C2C8F9600DAC01B /* Onboarding.swift */,
+				126992EA2C2C9D6F00DAC01B /* UserProfile.swift */,
 				12C377642C2B2F38006683A9 /* Assets.xcassets */,
 				12C377692C2B2F38006683A9 /* Persistence.swift */,
 				12C3776B2C2B2F38006683A9 /* Restaurant.xcdatamodeld */,
@@ -143,9 +152,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				126992E92C2C95FC00DAC01B /* Menu.swift in Sources */,
 				12C3776D2C2B2F38006683A9 /* Restaurant.xcdatamodeld in Sources */,
+				126992EB2C2C9D6F00DAC01B /* UserProfile.swift in Sources */,
 				12C3776A2C2B2F38006683A9 /* Persistence.swift in Sources */,
-				12C377632C2B2F36006683A9 /* ContentView.swift in Sources */,
+				126992E72C2C95C000DAC01B /* Home.swift in Sources */,
+				126992E52C2C8F9600DAC01B /* Onboarding.swift in Sources */,
 				12C377612C2B2F36006683A9 /* RestaurantApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

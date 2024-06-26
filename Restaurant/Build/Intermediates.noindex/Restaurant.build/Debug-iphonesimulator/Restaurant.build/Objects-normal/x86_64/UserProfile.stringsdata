@@ -1,0 +1,16 @@
+{
+  "source": "/Users/jacobc/Development/swift/Capstone/littlelemon/Restaurant/Restaurant/UserProfile.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Personal information"
+      },
+      {
+        "comment": "",
+        "key": "Logout"
+      }
+    ]
+  },
+  "version": 1
+}
