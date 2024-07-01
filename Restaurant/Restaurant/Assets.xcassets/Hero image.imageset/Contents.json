@@ -1,6 +1,7 @@
 {
   "images" : [
     {
+      "filename" : "Hero image.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
