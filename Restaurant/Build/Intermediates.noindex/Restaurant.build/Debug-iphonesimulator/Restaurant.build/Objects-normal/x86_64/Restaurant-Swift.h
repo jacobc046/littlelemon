@@ -299,16 +299,19 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @class NSEntityDescription;
 @class NSManagedObjectContext;
 
-SWIFT_CLASS_NAMED("Item")
-@interface Item : NSManagedObject
+SWIFT_CLASS_NAMED("Dish")
+@interface Dish : NSManagedObject
 - (nonnull instancetype)initWithEntity:(NSEntityDescription * _Nonnull)entity insertIntoManagedObjectContext:(NSManagedObjectContext * _Nullable)context OBJC_DESIGNATED_INITIALIZER;
 @end
 
 
-@class NSDate;
+@class NSString;
 
-@interface Item (SWIFT_EXTENSION(Restaurant))
-@property (nonatomic, copy) NSDate * _Nullable timestamp;
+@interface Dish (SWIFT_EXTENSION(Restaurant))
+@property (nonatomic, copy) NSString * _Nullable image;
+@property (nonatomic, copy) NSString * _Nullable itemDescription;
+@property (nonatomic, copy) NSString * _Nullable price;
+@property (nonatomic, copy) NSString * _Nullable title;
 @end
 
 

@@ -11,6 +11,11 @@ let kFirstName = "first name key"
 let kLastName = "last name key"
 let kEmail = "email key"
 let kIsLoggedIn = "kIsLoggedIn"
+let kProfilePicture = "Profile"
+let kOrderStatuses = "order status notifications key"
+let kPasswordChanges = "password change notifications key"
+let kSpecialOffers = "special offer notifications key"
+let kNewsletter = "newsletter notifications key"
 
 func isValid(email:String) -> Bool {
     guard !email.isEmpty else { return false }
@@ -21,31 +26,58 @@ func isValid(email:String) -> Bool {
     
 
 struct Onboarding: View {
-    @State var firstName: String = ""
+    @State public var firstName: String = ""
     @State var lastName: String = ""
     @State var email: String = ""
     @State var isLoggedIn: Bool = false
     
+    @Environment(\.managedObjectContext) private var viewContext
+    
+    fileprivate func setUserDefaults() {
+        UserDefaults.standard.set(firstName, forKey: kFirstName)
+        UserDefaults.standard.set(lastName, forKey: kLastName)
+        UserDefaults.standard.set(email, forKey: kEmail)
+        UserDefaults.standard.set(true, forKey: kIsLoggedIn)
+        UserDefaults.standard.set(kProfilePicture, forKey: kProfilePicture)
+        UserDefaults.standard.set(true, forKey: kOrderStatuses)
+        UserDefaults.standard.set(true, forKey: kPasswordChanges)
+        UserDefaults.standard.set(true, forKey: kSpecialOffers)
+        UserDefaults.standard.set(true, forKey: kNewsletter)
+    }
+    
     var body: some View {
         NavigationStack {
-            VStack {
-                TextField("First name", text: $firstName)
-                TextField("Last name", text: $lastName)
-                TextField("Email", text: $email)
-                    .keyboardType(.emailAddress)
+            Image("Logo")
+            Hero()
                 
-                //register button
-                Button(action: {
-                    if !(firstName.isEmpty || lastName.isEmpty) && isValid(email: email) {
-                        UserDefaults.standard.set(firstName, forKey: kFirstName)
-                        UserDefaults.standard.set(lastName, forKey: kLastName)
-                        UserDefaults.standard.set(email, forKey: kEmail)
-                        UserDefaults.standard.set(true, forKey: kIsLoggedIn)
-                        isLoggedIn = true
-                    }
-                }, label: {Text("Register")})
+                VStack(alignment: .leading) {
+                    TextField("First name *", text: $firstName)
+                        .textFieldStyle(.roundedBorder)
+                    TextField("Last name *", text: $lastName)
+                        .textFieldStyle(.roundedBorder)
+                    TextField("Email *", text: $email)
+                        .textFieldStyle(.roundedBorder)
+                        .keyboardType(.emailAddress)
+                        .textInputAutocapitalization(.never)
+                    
+                    //register button
+                    Button(action: {
+                        if !(firstName.isEmpty || lastName.isEmpty) && isValid(email: email) {
+                            setUserDefaults()
+                            isLoggedIn = true
+                        }
+                    }, label: {Text("Register")})
+                    .foregroundStyle(Color.white)
+                    .frame(maxWidth: .infinity, maxHeight: 40)
+                    .background(Color.primary1)
+                    .clipShape(RoundedRectangle(cornerRadius: 10))
+                    
+                    Spacer()
+                }
+                .padding(10)
+                .navigationDestination(isPresented: $isLoggedIn, destination: { Home()
+                    .environment(\.managedObjectContext, viewContext) })
             }
-            .navigationDestination(isPresented: $isLoggedIn, destination: { Home() })
             .onAppear {
                 if UserDefaults.standard.bool(forKey: kIsLoggedIn) {
                     isLoggedIn = true
@@ -53,8 +85,8 @@ struct Onboarding: View {
             }
         }
     }
-}
 
 #Preview {
     Onboarding()
+        .environment(\.managedObjectContext, PersistenceController.shared.container.viewContext)
 }

@@ -1,0 +1,20 @@
+{
+  "source": "/Users/jacobc/Development/swift/Capstone/littlelemon/Restaurant/Restaurant/Hero.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Little Lemon"
+      },
+      {
+        "comment": "",
+        "key": "Chicago"
+      },
+      {
+        "comment": "",
+        "key": "We are a family owned Mediterranean resaurant focued on traditional recipies served with a modern twist."
+      }
+    ]
+  },
+  "version": 1
+}

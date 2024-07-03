@@ -4,15 +4,15 @@
     "Localizable": [
       {
         "comment": "",
-        "key": "First name"
+        "key": "First name *"
       },
       {
         "comment": "",
-        "key": "Last name"
+        "key": "Last name *"
       },
       {
         "comment": "",
-        "key": "Email"
+        "key": "Email *"
       },
       {
         "comment": "",

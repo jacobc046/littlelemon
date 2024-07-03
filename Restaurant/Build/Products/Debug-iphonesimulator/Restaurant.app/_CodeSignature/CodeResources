@@ -4,6 +4,18 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Assets.car</key>
+		<data>
+		90adm6wIhhikBrfmhUev9lVc99o=
+		</data>
+		<key>ExampleDatabase.momd/ExampleDatabase.mom</key>
+		<data>
+		Ht6JXPPMS6WIDZsvM2ZPH6gBe2Q=
+		</data>
+		<key>ExampleDatabase.momd/VersionInfo.plist</key>
+		<data>
+		uborcb8xAoSX1dVaOsWsqkajCsI=
+		</data>
 		<key>Info.plist</key>
 		<data>
 		Gf2uOQQ05Zu06crwJxiacXkd5zM=
@@ -12,40 +24,28 @@
 		<data>
 		n57qDP4tZfLD1rCS43W0B4LQjzE=
 		</data>
-		<key>Restaurant.momd/Restaurant.mom</key>
-		<data>
-		17VOSR9gofr75SGJUQFHv1mPPQI=
-		</data>
-		<key>Restaurant.momd/Restaurant.omo</key>
-		<data>
-		Z7RoHEinGAvPhTPuXSAvsyoNgiQ=
-		</data>
-		<key>Restaurant.momd/VersionInfo.plist</key>
-		<data>
-		ERryr4czv3jSJHyp318b3Oc/qnQ=
-		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Restaurant.momd/Restaurant.mom</key>
+		<key>Assets.car</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wRqX0G0TJVqrNRVM+XF2kOhIsySbBwN8jk2Rj6m6EY8=
+			8HzS+JQHz5t2YGNd1afgUt6M4q64eApP3oZfDlGWykM=
 			</data>
 		</dict>
-		<key>Restaurant.momd/Restaurant.omo</key>
+		<key>ExampleDatabase.momd/ExampleDatabase.mom</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nGwSRpKY4HPGmaW94gZKR1aNThDBBcVuB7XhhrO6fDk=
+			3xmLap6M3Fvau2p4njMZKbfGMKtUi2oGTvvKGTTr6OM=
 			</data>
 		</dict>
-		<key>Restaurant.momd/VersionInfo.plist</key>
+		<key>ExampleDatabase.momd/VersionInfo.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Rg9BaExLyPjltISzenz9W4qUgIr5qZIEhFM9lHWBQRA=
+			5B6UGKjbv3yqO5PJsGMZrj75TzwqRCs7cbHoH164G/A=
 			</data>
 		</dict>
 	</dict>

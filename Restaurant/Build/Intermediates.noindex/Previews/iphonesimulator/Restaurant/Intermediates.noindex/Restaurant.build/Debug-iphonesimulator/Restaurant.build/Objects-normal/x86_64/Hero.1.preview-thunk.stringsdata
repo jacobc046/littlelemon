@@ -1,0 +1,20 @@
+{
+  "source": "/Users/jacobc/Development/swift/Capstone/littlelemon/Restaurant/Build/Intermediates.noindex/Previews/iphonesimulator/Restaurant/Intermediates.noindex/Restaurant.build/Debug-iphonesimulator/Restaurant.build/Objects-normal/x86_64/Hero.1.preview-thunk.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Little Lemon"
+      },
+      {
+        "comment": "",
+        "key": "Chicago"
+      },
+      {
+        "comment": "",
+        "key": "We are a family owned Mediterranean resaurant focued on traditional recipies served with a modern twist."
+      }
+    ]
+  },
+  "version": 1
+}

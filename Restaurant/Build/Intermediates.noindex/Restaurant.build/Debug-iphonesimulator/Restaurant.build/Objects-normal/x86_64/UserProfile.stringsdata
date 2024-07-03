@@ -4,11 +4,27 @@
     "Localizable": [
       {
         "comment": "",
-        "key": "Personal information"
+        "key": "Personal Information"
       },
       {
         "comment": "",
-        "key": "Logout"
+        "key": "Change"
+      },
+      {
+        "comment": "",
+        "key": "Remove"
+      },
+      {
+        "comment": "",
+        "key": "Email notifications"
+      },
+      {
+        "comment": "",
+        "key": "Log out"
+      },
+      {
+        "comment": "",
+        "key": "Done"
       }
     ]
   },

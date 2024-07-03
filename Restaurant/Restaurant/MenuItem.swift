@@ -6,3 +6,16 @@
 //
 
 import Foundation
+
+struct MenuItem: Decodable, Identifiable {
+    var id = UUID()
+    let title: String
+    let price: String
+    let image: String
+    let category: String
+    let itemDescription: String
+    
+    enum CodingKeys: String, CodingKey {
+        case title, price, image, category, itemDescription = "description"
+    }
+}
