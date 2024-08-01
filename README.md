@@ -11,7 +11,7 @@ Welcome to **Little Lemon**, your go-to app for ordering delicious meals from ou
 ## *Technologies Used*
 
 - **Swift**: The primary language used for development.
-- **UIKit**: Framework for building the app's user interface.
+- **SwiftUI**: Framework for building the app's user interface.
 - **JSON Decoding**: Parsing menu data from JSON files.
 - **Cora Data**: Storage of user defaults and menu item entities. 
 
